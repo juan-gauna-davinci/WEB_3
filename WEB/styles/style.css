@@ -1,0 +1,249 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+/* ESTILO GENERAL DE INDEX*/
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10px;
+    background: rgb(32 86 223);
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.logo img {
+    width: 250px;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar li a {
+    transition: all 0.3s ease 0s;
+    color: #fff;
+}
+
+.navbar li a:hover {
+    color: rgb(30 150 230);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgb(30 150 230);
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background: rgb(0, 0, 0, 0.9);
+}
+
+
+/* .icon {
+    width: 5%;
+    height: 5%;
+    margin-left: auto;
+} */
+
+
+/* ESTILO GENERAL DE REGISTER Y LOGIN */
+
+.Sx {
+    position: relative;
+    min-height: 100vh;
+    background-image: url(/images/ba1.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.Cx {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background: #ffff;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+}
+
+.user {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.signup {
+    position: relative;
+    margin-top: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #555;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.signup a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #ec1e1e;
+}
+
+.Imx {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* ESTILO LOGIN */
+
+.imgBx {
+    position: absolute;
+    right: -0%;
+    width: 50%;
+    height: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.formBx {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    transition: 0.5s;
+}
+
+.Hx {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.Ipx {
+    width: 100%;
+    padding: 10px;
+    background: #f5f5f5;
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 14px;
+    margin: 8px 0;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.Ix {
+    max-width: 100px;
+    background: #677eff;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.5;
+}
+
+
+/* ESTILO REGISTER */
+
+.imgCx {
+    position: relative;
+    right: 0%;
+    width: 50%;
+    height: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.formCx {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    transition: 0.5s;
+}
+
+.Hz {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.Ipz {
+    width: 100%;
+    padding: 10px;
+    background: #f5f5f5;
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 14px;
+    margin: 8px 0;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.Iz {
+    max-width: 100px;
+    background: #ec1e1e;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.5;
+}
