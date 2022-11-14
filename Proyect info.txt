@@ -1,0 +1,5 @@
+Nombre del proyecto: K-Racer.
+
+Integrantes: Juan Gauna.
+	     Lucas Paladino.
+	     Franco Rivarola.
